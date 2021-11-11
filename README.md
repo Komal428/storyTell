@@ -1,5 +1,10 @@
-1.Run message.py file.
-2.Now go to http://localhost:8080/docs. You will see the automatic interactive API documentation
+This repo uses Docker
 
-Testing
-Correctness of sloution can be check by running test.py
+**Build**
+docker build -t storyTell_Image .
+
+**Run**
+docker run -d --name container -p 8080:8080 storyTell_Image
+
+**Served Swagger**
+http://localhost:8080/docs
