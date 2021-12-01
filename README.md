@@ -2,7 +2,7 @@ This repo uses Docker
 
 **Build**
 
-docker build -t storyTell_Image .
+docker build -t storytell_image .
 
 **Run**
 
